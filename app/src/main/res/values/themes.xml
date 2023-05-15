@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Avalbekov_Omurbek_3_hw_2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Avalbekov_Omurbek_3_hw_2" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -13,4 +13,32 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <!-- Text_Views_Style. -->
+    <style name="Text_Views_Style" parent="Theme.Avalbekov_Omurbek_3_hw_2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/so_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">115dp</item>
+    </style>
+    <!--  Edit_Views_Style. -->
+    <style name="Edit_Text_Style" parent="Theme.Avalbekov_Omurbek_3_hw_2">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+    <!-- My_Button_Style. -->
+    <style name="My_Button_Style" parent="Edit_Text_Style">
+        <item name="android:background">@drawable/my_button</item>
+        <item name="android:text">Save</item>
+    </style>
+    <!-- Image_Views_style. -->
+    <style name="Image_Views_style" parent="Theme.Avalbekov_Omurbek_3_hw_2">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:src">@drawable/logo_for_all</item>
+    </style>
+
 </resources>

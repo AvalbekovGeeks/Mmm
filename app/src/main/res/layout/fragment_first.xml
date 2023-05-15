@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FirstFragment"
+    android:background="@color/white_so_purple">
+
+    <TextView
+        android:id="@+id/text_view_first_fragment"
+        style="@style/Text_Views_Style"
+        android:text="@string/first_fragment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_view_logo_first_fragment"
+        style="@style/Image_Views_style"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view_first_fragment"
+        app:tint="@color/purple_800" />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        style="@style/Edit_Text_Style"
+        android:hint="@string/type_your_name"
+        app:layout_constraintTop_toBottomOf="@id/image_view_logo_first_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="70dp" />
+
+    <EditText
+        android:id="@+id/edit_text_surname"
+        style="@style/Edit_Text_Style"
+        android:hint="@string/type_your_surname"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_save_first_fragment"
+        style="@style/My_Button_Style"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_surname" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

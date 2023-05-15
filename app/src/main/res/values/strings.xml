@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Avalbekov_Omurbek_3_hw_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
+    <string name="type_your_name">Type your name</string>
+    <string name="type_your_surname">Type your surname</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="type_your_age">Type your age</string>
+    <string name="type_your_gender">Type your gender</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="type_your_work_place">Type your work place</string>
+    <string name="type_your_study_place">Type your study place</string>
 </resources>
